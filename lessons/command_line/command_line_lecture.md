@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+>> Check location using `pwd`
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -119,6 +120,7 @@ Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
 > Hint: we learned how to list all the files up above.
+>> The output of `echo "HELLO WORLD"` is saved to `test_file.txt` rather than being printed on the terminal.
 
 The greater than says, "put that output into the following file instead."
 
@@ -192,6 +194,7 @@ ls -lh
 ```
 
 > What changed?
+>> It includes the units of the file sizes (K, B). `-h` makes it "human readable"
 
 If instead copying we just want to change the name of a file, we can do:
 
