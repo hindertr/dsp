@@ -147,6 +147,9 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+>> ```bash
+curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
+```
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -237,7 +240,7 @@ If we want to delete a whole directory, we have to do exactly the same thing.
 directory, so it will only delete whole directories if you give it a proper
 flag.
 
-```basg
+```bash
 rm -r test_directory
 rm -r test_directory2
 ls
